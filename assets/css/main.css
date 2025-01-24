@@ -1,214 +1,64 @@
-/* Resetting margins and padding */
+/* Reset some default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling */
+/* General body styling */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #f8f9fc;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
     color: #333;
-    line-height: 1.6;
 }
 
-/* Wrapper */
-#wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 30px;
-}
-
-/* Header Section */
-.intro {
-    text-align: center;
-    padding: 70px 20px;
-    background-color: #002f4b; /* Deep Blue */
-    color: #f1c40f; /* Gold */
-}
-
+/* Header and Title Styles */
 .intro header h1 {
-    font-size: 3.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-size: 3rem;
+    color: #003366;
 }
 
 .intro header h2 {
-    font-size: 1.8rem;
-    font-weight: normal;
-    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #f1c40f; /* Gold color for contrast */
 }
 
-.intro .content {
-    margin-top: 30px;
-}
-
+/* Profile Image */
 .intro .image {
-    width: 250px;  /* Increased size */
-    height: 250px; /* Increased size */
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #f1c40f; /* Gold border */
+    border: 5px solid #f1c40f;
 }
 
-/* Section Titles */
-section header h2 {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-    color: #002f4b; /* Dark Blue */
-}
-
-/* Summary Section */
-#summary {
-    background-color: #ffffff;
-    padding: 50px 30px;
-    border-radius: 12px;
-    margin-top: 40px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-#summary p {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    color: #555;
-}
-
-/* Technical Skills Section */
-#skills {
-    background-color: #f9f9f9;
-    padding: 50px 30px;
-    border-radius: 12px;
-    margin-top: 40px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-#skills ul {
-    list-style-type: none;
-    margin-top: 20px;
-}
-
-#skills li {
-    font-size: 1.1rem;
-    margin-bottom: 12px;
-    color: #555;
-}
-
-#skills strong {
-    color: #002f4b; /* Dark Blue */
-}
-
-/* Experience Section */
-#experience {
-    background-color: #ffffff;
-    padding: 50px 30px;
-    border-radius: 12px;
-    margin-top: 40px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-#experience h3 {
-    font-size: 1.5rem;
-    margin-top: 25px;
-    color: #002f4b; /* Dark Blue */
-}
-
-#experience p {
-    font-size: 1.1rem;
-    color: #555;
-}
-
-#experience ul {
-    list-style-type: disc;
-    margin-left: 20px;
-    margin-top: 10px;
-}
-
-#experience li {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-    color: #555;
-}
-
-/* Education Section */
-#education {
-    background-color: #f9f9f9;
-    padding: 50px 30px;
-    border-radius: 12px;
-    margin-top: 40px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-#education p {
-    font-size: 1.2rem;
-    color: #555;
-}
-
-/* Contact Section */
-#contact {
-    background-color: #ffffff;
-    padding: 50px 30px;
-    border-radius: 12px;
-    margin-top: 40px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-#contact p {
-    font-size: 1.2rem;
-    color: #555;
-}
-
-#contact ul {
-    list-style-type: none;
-    margin-top: 20px;
-}
-
-#contact li {
-    font-size: 1.1rem;
-    margin-bottom: 12px;
-}
-
-#contact a {
-    color: #f1c40f; /* Gold */
-    text-decoration: none;
-}
-
+/* Contact Link Hover Effect */
 #contact a:hover {
+    color: #002f4b;
     text-decoration: underline;
 }
 
-/* Footer */
-.copyright {
-    background-color: #002f4b; /* Deep Blue */
-    color: #f1c40f; /* Gold */
+/* Footer Styling */
+footer .copyright {
     text-align: center;
-    padding: 20px;
-    font-size: 1.1rem;
-    margin-top: 40px;
+    font-size: 1rem;
+    padding: 10px 0;
+    background-color: #003366;
+    color: #fff;
 }
 
-/* Media Queries */
+/* Responsive Media Queries */
 @media (max-width: 768px) {
     .intro header h1 {
-        font-size: 2.8rem;
+        font-size: 2rem;
     }
 
     .intro header h2 {
-        font-size: 1.4rem;
-    }
-
-    .intro .image {
-        width: 200px;
-        height: 200px;
-    }
-
-    section {
-        padding: 40px 20px;
+        font-size: 1.2rem;
     }
 
     .content {
-        padding: 15px;
+        padding: 20px;
     }
 
     .copyright {
