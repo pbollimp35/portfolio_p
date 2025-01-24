@@ -1,111 +1,160 @@
-/* Reset some default styles */
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Apply Google Fonts */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
 }
 
-/* General section styling */
-section {
-    margin-bottom: 50px;
+/* Header Section */
+.intro {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #4CAF50;
+    color: #fff;
 }
-
-header h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
-    color: #003366;
+.intro header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.intro header h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.intro .content img {
+    width: 50%;
+    height: auto;
+    max-width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
     margin-bottom: 20px;
-}
-
-header h1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 3rem;
-    color: #003366;
 }
 
 /* Summary Section */
 #summary {
-    background-color: #ffffff;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
 }
-
+#summary h2 {
+    font-size: 2em;
+    color: #4CAF50;
+}
 #summary p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    font-family: 'Roboto', sans-serif;
-    color: #666;
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.7;
 }
 
 /* Technical Skills Section */
+#skills {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#skills h2 {
+    font-size: 2em;
+    color: #4CAF50;
+}
 #skills ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
 }
-
 #skills li {
-    font-size: 1rem;
+    font-size: 1em;
     margin-bottom: 10px;
 }
 
 /* Professional Experience Section */
+#experience {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#experience h2 {
+    font-size: 2em;
+    color: #4CAF50;
+}
+#experience h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+#experience p {
+    font-size: 1.1em;
+    color: #555;
+}
 #experience ul {
-    list-style: none;
-    padding: 0;
+    list-style-type: square;
+    padding-left: 20px;
 }
 
-#experience li {
-    font-size: 1rem;
+/* Education Section */
+#education {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#education h2 {
+    font-size: 2em;
+    color: #4CAF50;
+}
+
+/* Contact Section */
+#contact {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#contact h2 {
+    font-size: 2em;
+    color: #4CAF50;
+}
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+#contact li {
+    font-size: 1.1em;
     margin-bottom: 10px;
 }
 
-/* Education and Contact Sections */
-#education p,
-#contact p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: #666;
-}
-
-/* Contact Links */
-#contact a {
-    color: #003366;
-    text-decoration: none;
-}
-
-#contact a:hover {
-    color: #f1c40f;
-    text-decoration: underline;
-}
-
-/* Footer Styling */
-footer .copyright {
+/* Footer Section */
+.copyright {
     text-align: center;
-    font-size: 1rem;
-    padding: 10px 0;
-    background-color: #003366;
+    padding: 20px;
+    background-color: #333;
     color: #fff;
+    font-size: 1em;
 }
 
-/* Responsive Media Queries */
+/* Responsive Styles */
 @media (max-width: 768px) {
-    header h1 {
-        font-size: 2.5rem;
+    .intro header h1 {
+        font-size: 2.5em;
     }
-
-    header h2 {
-        font-size: 1.5rem;
+    .intro header h2 {
+        font-size: 1.2em;
     }
-
-    section {
-        padding: 10px;
+    .intro .content img {
+        width: 70%;
+    }
+    #summary, #skills, #experience, #education, #contact {
+        padding: 15px;
     }
 }
