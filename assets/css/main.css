@@ -7,8 +7,8 @@
 
 /* Body styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f8f9fc;
     color: #333;
     line-height: 1.6;
 }
@@ -17,58 +17,60 @@ body {
 #wrapper {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
 }
 
 /* Header Section */
 .intro {
     text-align: center;
-    padding: 50px 0;
-    background-color: #1e2a3a;
-    color: white;
+    padding: 70px 20px;
+    background-color: #002f4b; /* Deep Blue */
+    color: #f1c40f; /* Gold */
 }
 
 .intro header h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .intro header h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: normal;
     margin-top: 10px;
 }
 
 .intro .content {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .intro .image {
-    width: 150px;
-    height: 150px;
+    width: 250px;  /* Increased size */
+    height: 250px; /* Increased size */
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #fff;
+    border: 5px solid #f1c40f; /* Gold border */
 }
 
 /* Section Titles */
 section header h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
     text-transform: uppercase;
-    color: #1e2a3a;
+    color: #002f4b; /* Dark Blue */
 }
 
 /* Summary Section */
 #summary {
-    background-color: white;
-    padding: 40px 20px;
-    border-radius: 8px;
-    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 50px 30px;
+    border-radius: 12px;
+    margin-top: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 #summary p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.8;
     color: #555;
 }
@@ -76,9 +78,10 @@ section header h2 {
 /* Technical Skills Section */
 #skills {
     background-color: #f9f9f9;
-    padding: 40px 20px;
-    border-radius: 8px;
-    margin-top: 20px;
+    padding: 50px 30px;
+    border-radius: 12px;
+    margin-top: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 #skills ul {
@@ -87,27 +90,28 @@ section header h2 {
 }
 
 #skills li {
-    font-size: 1rem;
-    margin-bottom: 10px;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
     color: #555;
 }
 
 #skills strong {
-    color: #1e2a3a;
+    color: #002f4b; /* Dark Blue */
 }
 
 /* Experience Section */
 #experience {
-    background-color: white;
-    padding: 40px 20px;
-    border-radius: 8px;
-    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 50px 30px;
+    border-radius: 12px;
+    margin-top: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 #experience h3 {
-    font-size: 1.4rem;
-    margin-top: 20px;
-    color: #1e2a3a;
+    font-size: 1.5rem;
+    margin-top: 25px;
+    color: #002f4b; /* Dark Blue */
 }
 
 #experience p {
@@ -122,34 +126,36 @@ section header h2 {
 }
 
 #experience li {
-    font-size: 1rem;
-    margin-bottom: 8px;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
     color: #555;
 }
 
 /* Education Section */
 #education {
     background-color: #f9f9f9;
-    padding: 40px 20px;
-    border-radius: 8px;
-    margin-top: 20px;
+    padding: 50px 30px;
+    border-radius: 12px;
+    margin-top: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 #education p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #555;
 }
 
 /* Contact Section */
 #contact {
-    background-color: white;
-    padding: 40px 20px;
-    border-radius: 8px;
-    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 50px 30px;
+    border-radius: 12px;
+    margin-top: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 #contact p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #555;
 }
 
@@ -159,12 +165,12 @@ section header h2 {
 }
 
 #contact li {
-    font-size: 1rem;
-    margin-bottom: 10px;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
 }
 
 #contact a {
-    color: #007bff;
+    color: #f1c40f; /* Gold */
     text-decoration: none;
 }
 
@@ -174,38 +180,38 @@ section header h2 {
 
 /* Footer */
 .copyright {
-    background-color: #1e2a3a;
-    color: white;
+    background-color: #002f4b; /* Deep Blue */
+    color: #f1c40f; /* Gold */
     text-align: center;
-    padding: 15px;
-    font-size: 1rem;
+    padding: 20px;
+    font-size: 1.1rem;
     margin-top: 40px;
 }
 
 /* Media Queries */
 @media (max-width: 768px) {
     .intro header h1 {
-        font-size: 2.5rem;
+        font-size: 2.8rem;
     }
 
     .intro header h2 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     .intro .image {
-        width: 120px;
-        height: 120px;
+        width: 200px;
+        height: 200px;
     }
 
     section {
-        padding: 30px 10px;
+        padding: 40px 20px;
     }
 
     .content {
-        padding: 10px;
+        padding: 15px;
     }
 
     .copyright {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 }
