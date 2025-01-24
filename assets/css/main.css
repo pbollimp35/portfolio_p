@@ -5,36 +5,84 @@
     box-sizing: border-box;
 }
 
-/* General body styling */
+/* Apply Google Fonts */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Header and Title Styles */
-.intro header h1 {
+/* General section styling */
+section {
+    margin-bottom: 50px;
+}
+
+header h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
     font-size: 3rem;
     color: #003366;
 }
 
-.intro header h2 {
-    font-size: 1.5rem;
-    color: #f1c40f; /* Gold color for contrast */
+/* Summary Section */
+#summary {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Profile Image */
-.intro .image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 5px solid #f1c40f;
+#summary p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    color: #666;
 }
 
-/* Contact Link Hover Effect */
+/* Technical Skills Section */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Professional Experience Section */
+#experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+#experience li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Education and Contact Sections */
+#education p,
+#contact p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Contact Links */
+#contact a {
+    color: #003366;
+    text-decoration: none;
+}
+
 #contact a:hover {
-    color: #002f4b;
+    color: #f1c40f;
     text-decoration: underline;
 }
 
@@ -49,19 +97,15 @@ footer .copyright {
 
 /* Responsive Media Queries */
 @media (max-width: 768px) {
-    .intro header h1 {
-        font-size: 2rem;
+    header h1 {
+        font-size: 2.5rem;
     }
 
-    .intro header h2 {
-        font-size: 1.2rem;
+    header h2 {
+        font-size: 1.5rem;
     }
 
-    .content {
-        padding: 20px;
-    }
-
-    .copyright {
-        font-size: 1rem;
+    section {
+        padding: 10px;
     }
 }
